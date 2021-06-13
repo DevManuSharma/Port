@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.live{
+    
+    padding: 10px 10px 10px 10px;
+    background: black;
+    width: 100%;
+    background-attachment: fixed;
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.blink {
+    animation: blink 2s steps(5, start) infinite;
+    -webkit-animation: blink 1s steps(5, start) infinite;
+    font-size: 34px;
+    color: white;
+  }
+  @keyframes blink {
+    to {
+      visibility: hidden;
+    }
+  }
+  @-webkit-keyframes blink {
+    to {
+      visibility: hidden;
+    }
+  }
+
+
+li{
+    text-decoration: none;
+    list-style: none;
+}
+.ul{
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 0px 1px 8px 0px rgba(255, 0, 0, 0.891);
+    padding: 10px 10px 10px 10px;
+    border-radius: 4px;
+    background: rgb(255, 255, 255);
+}
+.cor{
+  
+  
+    
+    border: 2px solid transparent;
+
+;
+    
+}
+
+.today{
+
+    border: 2px solid yellow;
+    padding: 10px 5px 10px 5px;
+    width: 200px;
+}
+
+.cor_inner{
+    border: 2px transparent solid;
+    height: 150px;
+    
+    background: rgb(135, 238, 50);
+    border-radius: 8px;
+    transition: 0.3s ;
+   
+}
+.cor_inner:hover{
+    
+    box-shadow: 0px 1px 20px 0px rgba(0, 76, 255, 0.891);
+}
+.cor_name{
+ 
+color:orange;
+font-weight: bolder;
+font-size: 30px;
+
+}
+.cor_small{
+    font-weight: bolder;
+    color: white;
+    
+}
+.cor_main{
+    margin-bottom: 10px;
+    border: 2px transparent solid;
+    width: 100%;
+}
+
+.cor_india{
+    color: darkblue;
+    font-weight: 500;
+}
+
+.recovered{
+    color: rgb(0, 0, 0);
+    background: #da727bcd;
+}
+
+.death{
+    color: black;
+    background: rgba(255, 0, 0, 0.789);
+}
+
+.confirmed{
+    color: black;
+    background: rgba(184, 17, 17, 0.789);
+}
+
+.activenow{
+    color: black;
+    background: rgba(204, 157, 96, 0.789);
+}
+.cor_updated{
+    color: rgb(169, 164, 164);
+    background: black;
+    box-shadow: 0px 0px 1px 1px inset rgb(255, 255, 255);
+    border: 2px black solid;
+    transition: .4s;
+}
+
+.cor_updated:hover{
+        color: white;
+}

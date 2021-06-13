@@ -1,0 +1,74 @@
+
+.navbar-light .navbar-toggler{
+    margin-right: 10px !important;
+}
+.topnav-item{
+    text-decoration: none;
+    margin-left: 10px;
+    padding: 10px 5px 10px 5px;
+    border-radius: 4px;
+    transition: .4s;
+    
+}
+
+.topnav-link{
+    text-decoration: none;
+    color: grey;
+    padding: 10px 5px 10px 5px;
+    transition: .4s;
+    border-radius: 4px;
+}
+
+
+.topnav-activ{
+
+    background: blue;
+    padding: 10px 5px 10px 5px;
+    border-radius: 4px;
+    color: white;
+    
+    transition: .4s;
+    box-shadow: 0px 0px 5px 0px blue;
+}
+.topnav-activ:hover{
+    background: blue;
+    padding: 10px 5px 10px 5px;
+    border-radius: 4px;
+    transition: .4s;
+    color: white;
+}
+.corona{
+    text-decoration: none;
+    padding: 10px 5px 10px 5px;
+   
+    transition: .3s;
+}
+.corona:hover{
+    box-shadow: 0px 0px 5px 0px rgb(240, 123, 14);
+    padding: 10px 5px 10px 5px;
+    border-radius: 4px;
+    color: rgb(255, 0, 43) !important;
+    transition: .3s;
+}
+.coronaac{
+    background: red;
+    color: white !important;
+    padding: 10px 5px 10px 5px;
+    transition: .4s;
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px 0px rgb(255, 0, 0);
+}
+.coronaac:hover{
+    background: red;
+    color: white !important;
+    padding: 10px 5px 10px 5px;
+    transition: .4s;
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px 0px rgb(255, 0, 0);
+}
+.topnav-link:hover{
+    box-shadow: 0px 0px 5px 0px blue;
+    padding: 10px 5px 10px 5px;
+    transition: .4s;
+    border-radius: 4px;
+}

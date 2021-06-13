@@ -1,0 +1,42 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.brand-name{
+    color: royalblue;
+  
+    
+
+}
+.card-header {
+    background: rgb(255, 255, 255) !important;
+    color:rgb(47, 55, 135);
+}
+
+.my-3{
+
+    font-size: 25px !important;
+    color:green;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serifs;
+}
+
+.Recentpro{
+   background: darkturquoise;
+}
+
+.viewall{
+    background-color: darkviolet !important;
+    color: white !important;
+}
+
+@media (max-width:500px){
+    .Homepic{
+        margin-left: 50px;
+    }
+}
