@@ -10,7 +10,7 @@ const PCards =(props)=> {
         <div className="crd-container">
             <div className="crd">
                 <div className="crd-view">
-                    <img src={props.photo} height="150px" width="290px" alt="projectimage" />
+                    <img src={props.photo} height="150px" width="295px" alt="projectimage" />
                    <div className="crd-elements"> <h3>{props.name}</h3>
                     <p>{props.info}</p>
                     <h6><strong  >Languages:</strong>{props.lang}</h6>
@@ -19,7 +19,7 @@ const PCards =(props)=> {
                         <h5>Uploaded on : {props.date}</h5>
                         </div>
                         <div class="d-grid gap-2">
-                        <NavLink  className="btn btn-primary" to = {props.visit} >View Project</NavLink>
+                        <NavLink  className="btn btn-primary btn-lg btn-block" to = {props.visit} >View Project</NavLink>
                         </div>
                 </div>
             </div>            

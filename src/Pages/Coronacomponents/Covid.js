@@ -28,7 +28,7 @@ const Covid = () =>{
 
        <ul className="ul text-center" >
        <p className="cor_name text-center" ><span>Our</span> Country</p>
-                    <p className="cor_total cor_india text-center"><img src="images/Flag.png" height="40px" width="40px"  alt="Flag" /> INDIA</p>
+                    <p className="cor_total cor_india text-center"><img src="https://cdn.countryflags.com/thumbs/india/flag-3d-250.png" height="30px" width="40px"  alt="Flag" /> INDIA</p>
            
            <li className="cor d-flex justify-content-center">
             <div className="cor_main" >
