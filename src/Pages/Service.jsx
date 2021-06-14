@@ -9,7 +9,7 @@ const Service =()=> {
     <PCards 
     visit="/Covid" 
     name="Covid 19 Tracker" 
-    photo="http://manubhai.ml/Covid%20Tracker.png"
+    photo="https://i.ibb.co/wrqqJCj/Covid-Tracker.png"
     info="Tracks the cases all over the INDIA" 
     lang=" Html | Css | React" 
     date=" 13-06-2021" 
